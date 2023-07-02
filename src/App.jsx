@@ -137,7 +137,7 @@ export default function App() {
     const promise = databases.updateDocument(
       "64a13ac145320fdd48eb",
       "64a13b4157e4c5e8d166",
-      value.join || value.create,
+      room,
       {
         chats: [...value.chats, value.user.phone + value.chat],
       }
