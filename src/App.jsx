@@ -181,6 +181,7 @@ export default function App() {
         ...value,
         user: {
           phone: response.phone,
+          id: response.$id
         },
       });
     });
